@@ -1,0 +1,29 @@
+{
+  "name": "ama-review-bot",
+  "version": "1.0.0",
+  "description": "Amazon long-tail review discovery bot with multi-region support (Node.js).",
+  "main": "src/cli.js",
+  "bin": {
+    "ama-review-bot": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "pipeline": "node src/pipeline.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "keywords": ["amazon", "reviews", "twitter", "bot"],
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "openai": "^4.70.2",
+    "twitter-api-v2": "^1.16.0",
+    "pg": "^8.11.3"
+  }
+}
