@@ -1,0 +1,93 @@
+{
+  "jp": {
+    "domain": "amazon.co.jp",
+    "review_url": "https://www.amazon.co.jp/product-reviews/",
+    "affiliate_id": "YOUR_JP_AFFILIATE_ID",
+    "language": "ja",
+    "category_weights": {
+      "stationery": 5,
+      "storage": 5,
+      "kitchen": 2,
+      "mobile": 1,
+      "gadgets": 1
+    }
+  },
+  "us": {
+    "domain": "amazon.com",
+    "review_url": "https://www.amazon.com/product-reviews/",
+    "affiliate_id": "YOUR_US_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "kitchen": 5,
+      "cleaning": 4,
+      "gadgets": 4,
+      "pets": 3,
+      "storage": 2,
+      "tools": 1
+    }
+  },
+  "eu": {
+    "domain": "amazon.de",
+    "review_url": "https://www.amazon.de/product-reviews/",
+    "affiliate_id": "YOUR_EU_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "kitchen": 5,
+      "appliances": 5,
+      "tools": 3,
+      "coffee": 3,
+      "storage": 2
+    }
+  },
+  "in": {
+    "domain": "amazon.in",
+    "review_url": "https://www.amazon.in/product-reviews/",
+    "affiliate_id": "YOUR_IN_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "daily_goods": 5,
+      "mobile": 5,
+      "cleaning": 3,
+      "storage": 2
+    }
+  },
+  "ca": {
+    "domain": "amazon.ca",
+    "review_url": "https://www.amazon.ca/product-reviews/",
+    "affiliate_id": "YOUR_CA_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "home_improvement": 5,
+      "kitchen": 4,
+      "cleaning": 3,
+      "storage": 2,
+      "office": 1
+    }
+  },
+  "uk": {
+    "domain": "amazon.co.uk",
+    "review_url": "https://www.amazon.co.uk/product-reviews/",
+    "affiliate_id": "YOUR_UK_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "kitchen_highend": 5,
+      "appliances": 5,
+      "storage": 2,
+      "garden": 2,
+      "office": 1
+    }
+  },
+  "au": {
+    "domain": "amazon.com.au",
+    "review_url": "https://www.amazon.com.au/product-reviews/",
+    "affiliate_id": "YOUR_AU_AFFILIATE_ID",
+    "language": "en",
+    "category_weights": {
+      "outdoor": 5,
+      "cleaning": 4,
+      "kitchen": 3,
+      "pets": 2,
+      "home_small": 1
+    }
+  }
+}
