@@ -1,0 +1,10 @@
+{
+  "name": "ama-review-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/runTests.js",
+    "test:scraper": "node tests/runTests.js"
+  }
+}
